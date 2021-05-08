@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+1. bundle install
+2. figaro install
+3. rails g bullet:install
+4. rails g simple_form:install --bootstrap

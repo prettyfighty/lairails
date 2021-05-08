@@ -31,7 +31,10 @@ gem 'devise', '~> 4.8'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
 # : figaro install
 gem 'figaro', '~> 1.2'
-
+# bootstrap-sass
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+# simple_form
+gem 'simple_form', '~> 5.1'
 
 
 
