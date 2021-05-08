@@ -32,9 +32,10 @@ gem 'kaminari', '~> 1.2', '>= 1.2.1'
 # : figaro install
 gem 'figaro', '~> 1.2'
 # bootstrap-sass
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+# gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # simple_form
 gem 'simple_form', '~> 5.1'
+
 
 
 
@@ -63,6 +64,7 @@ group :development do
   gem 'spring'
   # Detect N+1 queries : rails g bullet:install
   gem 'bullet', '~> 6.1', '>= 6.1.4'
+  gem 'foreman', '~> 0.87.2'
 end
 
 group :test do
@@ -74,4 +76,4 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
